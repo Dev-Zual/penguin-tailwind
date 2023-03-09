@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Penguin Fashion With Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header class="bg-[#FFFBF0] pb-11 mb-7">
+      <nav class="py-5">
+        <div class="container mx-auto">
+          <div class="flex">
+            <div class="logo">
+              <a href=""><img class="w-72" src="./images/logo.png" alt="" /></a>
+            </div>
+            <div class="ml-auto hidden md:block">
+              <ul class="flex">
+                <li><a class="py-2 font-semibold px-4 m-2" href="">Home</a></li>
+                <li>
+                  <a class="py-2 font-semibold px-4 m-2" href="">Product</a>
+                </li>
+                <li>
+                  <a class="py-2 font-semibold px-4 m-2" href="">About Us</a>
+                </li>
+                <li>
+                  <a class="py-2 font-semibold px-4 m-2" href="">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <section class="container mx-auto">
+        <div class="md:flex md:flex-row items-center justify-between flex-col">
+          <div class="banner-left flex-1">
+            <h1 class="text-7xl">
+              <span class="text-[#FABE4C]">Be The Penguins</span> <br />
+              Of Winter
+            </h1>
+            <p class="mt-3">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Exercitationem, quo.
+            </p>
+            <button class="bg-[#a4bc46] py-2 px-4 rounded-md text-white mt-3">
+              Buy Now
+            </button>
+          </div>
+          <div class="banner-right flex-1">
+            <div class="flex justify-center">
+              <img class="" src="./images/model.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <!-- products area -->
+      <section class="container mx-auto my-9 px-6">
+        <h1 class="uppercase text-4xl font-bold mb-7">Woman jacket</h1>
+        <div class="grid md:grid-cols-3 sm:grid-cols-1 gap-5">
+          <div class="rounded-md p-5 drop-shadow-md bg-white">
+            <div class="bg-gray-200 rounded-md flex justify-center">
+              <img class="w-72 p-3" src="./images/jacket-1.png" alt="" />
+            </div>
+            <h4 class="text-[#363958] text-2xl font-bold my-2">
+              Yellow coat jacket
+            </h4>
+            <p class="text-sm">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
+              exercitationem quidem autem perspiciatis recusandae facilis?
+            </p>
+            <div class="flex justify-between mt-5">
+              <h1 class="text-3xl">$234</h1>
+              <button class="bg-[#a4bc46] rounded-md px-3 text-white py-2">
+                Buy Now
+              </button>
+            </div>
+          </div>
+          <div class="rounded-md p-5 drop-shadow-md bg-white">
+            <div class="bg-gray-200 rounded-md flex justify-center">
+              <img class="w-72 p-3" src="./images/jacket-2.png" alt="" />
+            </div>
+            <h4 class="text-[#363958] text-2xl font-bold my-2">
+              Ladies Jacket
+            </h4>
+            <p class="text-sm">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
+              exercitationem quidem autem perspiciatis recusandae facilis?
+            </p>
+            <div class="flex justify-between mt-5">
+              <h1 class="text-3xl">$234</h1>
+              <button class="bg-[#a4bc46] rounded-md px-3 text-white py-2">
+                Buy Now
+              </button>
+            </div>
+          </div>
+          <div class="rounded-md p-5 drop-shadow-md bg-white">
+            <div class="bg-gray-200 rounded-md flex justify-center">
+              <img class="w-72 p-3" src="./images/jacket-3.png" alt="" />
+            </div>
+            <h4 class="text-[#363958] text-2xl font-bold my-2">
+              Woman Leather Jacket
+            </h4>
+            <p class="text-sm">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
+              exercitationem quidem autem perspiciatis recusandae facilis?
+            </p>
+            <div class="flex justify-between mt-5">
+              <h1 class="text-3xl">$234</h1>
+              <button class="bg-[#a4bc46] rounded-md px-3 text-white py-2">
+                Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- man jacket  -->
+        <div class="mt-16">
+          <h1 class="uppercase text-4xl font-bold mb-7">Man jacket</h1>
+          <div class="grid md:grid-cols-3 sm:grid-cols-1 gap-5">
+            <div class="rounded-md p-5 drop-shadow-md bg-white">
+              <div class="bg-gray-200 rounded-md flex justify-center">
+                <img class="w-72 p-3" src="./images/jacket-4.png" alt="" />
+              </div>
+              <h4 class="text-[#363958] text-2xl font-bold my-2">
+                Snowboard Jacket Mens
+              </h4>
+              <p class="text-sm">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
+                exercitationem quidem autem perspiciatis recusandae facilis?
+              </p>
+              <div class="flex justify-between mt-5">
+                <h1 class="text-3xl">$234</h1>
+                <button class="bg-[#a4bc46] rounded-md px-3 text-white py-2">
+                  Buy Now
+                </button>
+              </div>
+            </div>
+            <div class="rounded-md p-5 drop-shadow-md bg-white">
+              <div class="bg-gray-200 rounded-md flex justify-center">
+                <img class="w-72 p-3" src="./images/jacket-5.png" alt="" />
+              </div>
+              <h4 class="text-[#363958] text-2xl font-bold my-2">
+                Man Leather Jackets
+              </h4>
+              <p class="text-sm">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
+                exercitationem quidem autem perspiciatis recusandae facilis?
+              </p>
+              <div class="flex justify-between mt-5">
+                <h1 class="text-3xl">$234</h1>
+                <button class="bg-[#a4bc46] rounded-md px-3 text-white py-2">
+                  Buy Now
+                </button>
+              </div>
+            </div>
+            <div class="rounded-md p-5 drop-shadow-md bg-white">
+              <div class="bg-gray-200 rounded-md flex justify-center">
+                <img class="w-72 p-3" src="./images/jacket-6.png" alt="" />
+              </div>
+              <h4 class="text-[#363958] text-2xl font-bold my-2">
+                Man Casual Jackets
+              </h4>
+              <p class="text-sm">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
+                exercitationem quidem autem perspiciatis recusandae facilis?
+              </p>
+              <div class="flex justify-between mt-5">
+                <h1 class="text-3xl">$234</h1>
+                <button class="bg-[#a4bc46] rounded-md px-3 text-white py-2">
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- feature area  -->
+      <section class="container mx-auto my-[5rem] px-6">
+        <div class="features">
+          <div class="flex flex-col-reverse md:flex-row justify-between gap-5">
+            <div class="feature-left flex-1 mr-7">
+              <div class="flex flex-col sm:mt-7 gap-9">
+                <div
+                  class="feature-item gap-10 flex flex-col text-center md:flex-row md:text-left items-center bg-white drop-shadow rounded-md p-5"
+                >
+                  <img class="w-16" src="./images/house.png" alt="" />
+                  <div class="feature-text">
+                    <h4 class="text-2xl font-semibold">Find the perfect fit</h4>
+                    <p class="text-sm mt-3">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Non facilis velit enim tenetur.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="feature-item gap-10 flex flex-col text-center md:flex-row md:text-left items-center bg-white drop-shadow rounded-md p-5"
+                >
+                  <img class="w-16" src="./images/box.png" alt="" />
+                  <div class="feature-text">
+                    <h4 class="text-2xl font-semibold">Free Exchanges</h4>
+                    <p class="text-sm mt-3">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Non facilis velit enim tenetur.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="feature-item gap-10 flex flex-col text-center md:flex-row md:text-left items-center bg-white drop-shadow rounded-md p-5"
+                >
+                  <img class="w-16" src="./images/question.png" alt="" />
+                  <div class="feature-text">
+                    <h4 class="text-2xl font-semibold">Contact Our Seller</h4>
+                    <p class="text-sm mt-3">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Non facilis velit enim tenetur.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="feature-right flex-1">
+              <img src="./images/shopping.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container mx-auto">
+        <div class="mb-3">
+          <p class="text-center">
+            &copy; 2023 All Rights Reserved. Penguin Fashion
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
